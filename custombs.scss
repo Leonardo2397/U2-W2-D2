@@ -18,4 +18,21 @@ $custom-font-sizes: (
 $font-sizes : map-merge($font-sizes, $custom-font-sizes);
 
 
+
+$new-border-widths: (
+    6 : 6px,
+    7 : 7px,
+    8 : 8px,
+    9 : 9px,
+    10: 10px,
+);
+
+$border-widths: map-merge($border-widths, $new-border-widths);
+
+
+$new-grid-gutter-width: (0.5rem);
+
+$grid-gutter-width: map-merge($grid-gutter-width, $new-grid-gutter-width);
+
+
 @import "./bootstrap-5.3.7/bootstrap-5.3.7/scss/bootstrap";
